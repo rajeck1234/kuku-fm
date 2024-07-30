@@ -11,7 +11,6 @@
     }); 
   };
   
-  //var DEFAULT_MANIFEST = "https://hadriengardeur.github.io/audiobook-manifest/examples/flatland.audiobook/manifest.json";
   var current_url_params = new URLSearchParams(location.href);
 
   if (current_url_params.has("href")) {
